@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+	background-color: #000000;
+	padding-right: 28%;
+	padding-left: 28%;
+	color:  white;
+	font-family: 'Silkscreen', cursive;
+	font-weight: normal;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+}
+
+img#cryptids {
+	max-width: 80%;
+	margin-top: 10px;
+}
+
+p.descricao {
+	font-size: 12.5px;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-align: justify
+}
+
+img#jogo {
+	margin-top: -15%;
+	max-width: 100%;
+}
+
+div#devs-and-baixar {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 60px;
+	gap: 50px;
+}
+
+/*=================DEVS===================*/
+div#devs-and-titulo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+p#devs-titulo {
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+div#devs {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 80px;
+}
+
+p#devs-titulo {
+	text-align: center;
+}
+
+div.devs-unico {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+p.devs-texto {
+	font-size: 12.5px;
+	margin-bottom: -5px;
+}
+
+img.devs-imagem {
+	width: 60px;
+	height: 60px;
+	border-radius: 10px;
+}
+
+div.devs-div-link {
+	display: flex;
+	justify-content: space-between;
+}
+
+img.devs-links {
+	max-width: 20px;
+}
+
+/*=================BAIXAR===================*/
+
+div#baixar {
+	font-size: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+div.links {
+	border: 2px solid #ffffff30;
+	color: #ffffff30;
+	padding: 10%;
+	padding-left: 35%;
+	padding-right: 35%;
+	font-size: 18px;
+	margin-bottom: -10px;
+}
+
+p.link {
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+    font-size: 16px;
+}
+
+/*
+a {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+a.link {
+	display: block;
+	font-weight: bold;
+    font-size: 16px;
+}
+
+div.links:hover {
+	background-color: white;
+	color: #2e3138;
+}
+
+a.link:hover{
+	color: #2e3138;
+}
+*/
+
+/*=================FOOTER===================*/
+
+footer {
+	text-align: center;
+	font-size: 10px;
+	margin-top: 60px;
+	padding-bottom: 10px;
+}
+
+/*=================MEDIA===================*/
+
+@media screen and (max-width: 760px) {
+	body {
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+
+	img#cryptids {
+		max-width: 100%;
+	}
+
+
+	p.descricao {
+		font-size: 11.5px;
+	}
+
+	footer {
+		font-size: 8px;
+	}
+}
+
+/*=================SCROLLBAR===================*/
+
+::-webkit-scrollbar {
+	width: 7px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb{
+	background-color: #ffffff30;
+	border-radius: 100%;
+}
