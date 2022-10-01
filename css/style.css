@@ -93,6 +93,11 @@ div.devs-div-link {
 
 img.devs-links {
 	max-width: 20px;
+	opacity: 1;
+}
+
+img.devs-links:hover {
+	opacity: 0.5;
 }
 
 /*=================BAIXAR===================*/
@@ -103,6 +108,9 @@ div#baixar {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
+	gap: 20px;
+	margin-top: -20px;
+	color: red;
 }
 
 div.links {
@@ -112,7 +120,6 @@ div.links {
 	padding-left: 35%;
 	padding-right: 35%;
 	font-size: 18px;
-	margin-bottom: -10px;
 }
 
 p.link {
@@ -120,6 +127,18 @@ p.link {
 	display: block;
 	font-weight: bold;
     font-size: 16px;
+}
+
+a#repository{
+	font-size: 8px;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	margin-top: -55px;
+}
+
+a#repository:hover {
+	color: #999999;
 }
 
 /*
