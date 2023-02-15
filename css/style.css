@@ -36,6 +36,13 @@ img#jogo {
 	max-width: 100%;
 }
 
+iframe.video {
+	width: 100%;
+	height: 50vh;
+	border: 1px solid black;
+	margin-top: 15%;
+}
+
 div#devs-and-baixar {
 	display: flex;
 	flex-direction: column;
